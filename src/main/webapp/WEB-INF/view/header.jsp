@@ -13,5 +13,17 @@
 	</head>
 	<body>
 		<div id="mainLayout">
-			<h1>ROMAN ROZBORSKY</h1>
+			<div id="header">
+				<div id="name">
+					<h1>ROMAN ROZBORSKY</h1>
+				</div>
+				<div id="navigation">
+					<button onclick="location.href='./'" type="button">home</button>
+					<button onclick="location.href='projects'" type="button">projects</button>
+				</div>
+			</div>
+			<div id="content">
+
+
+
 

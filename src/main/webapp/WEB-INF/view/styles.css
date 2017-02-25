@@ -6,28 +6,73 @@ body{
 }
 
 #mainLayout{
-    margin-top: 5%;
     background-color: #F9FFF1;
     width: 90%;
     height: 90%;
     margin: 0 auto;
+    margin-top: 2%;
+}
+
+#header{
+    background-color: #383838;
+    padding-left: 80px;
+    height: 150px;
+}
+
+#name{
+    float: left;
+    font-size: 200%;
 }
 
 H1{
-    font-size: 400%;
     color: #F9FFF1;
 }
+
+#navigation{
+    float: right;
+    position: relative;
+}
+
+#navigationButton{
+    position: absolute;
+    bottom: 0;
+}
+
+
+#content{
+    width: 70%;
+    height: 90%
+    margin: 50px;
+    border-right: 1px solid red;
+    font-size: 200%;
+}
+
+#photo{
+    width: 30%;
+    float: left;
+    padding: 50px;
+}
+
+img{
+    width: 100%;
+}
+
+#about{
+    float: right;
+    width: 60%;
+}
+
+
+
 
 
 
 
         styles.add(".content { " +
-                "margin-top: 50px;" +
-                "margin-bottom: 50px;" +
-                "border-right: 1px solid #383838;}");
-        styles.add(".header { " +
-                "padding-left: 80px;" +
-                "background-color: #383838;}");
+                "" +
+                "" +
+                "}");
+
         styles.add(".rightPart { " +
                 "padding: 50px;" +
                 "font-size: 180%;}");
