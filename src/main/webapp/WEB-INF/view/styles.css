@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    background-color: #3A3E47;
+    color: #2D2D38;
+    font-family: arial;
+}
+
+#mainLayout{
+    margin-top: 5%;
+    background-color: #F9FFF1;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+H1{
+    font-size: 400%;
+    color: #F9FFF1;
+}
+
+
+
+
+        styles.add(".content { " +
+                "margin-top: 50px;" +
+                "margin-bottom: 50px;" +
+                "border-right: 1px solid #383838;}");
+        styles.add(".header { " +
+                "padding-left: 80px;" +
+                "background-color: #383838;}");
+        styles.add(".rightPart { " +
+                "padding: 50px;" +
+                "font-size: 180%;}");
+        styles.add(".social {" +
+                "margin-top: 50px;}");
+        styles.add(".socialLabel {" +
+                "margin-top: 50px;}");
+     styles.add(".v-label-titleSurname { " +
+                "margin-left: 30px;" +
+                "font-weight: 600;}");
+        styles.add(".about { " +
+                "margin-left: 50px;" +
+                "font-size: 180%;");
+        styles.add(".position, .projectsDescription { " +
+                "width: 90%;" +
+                "font-size: 150%;" +
+                "word-wrap: break-word;}");
+        styles.add(".photo { " +
+                "margin: 50px;" +
+                "margin-top: 60px;" +
+                "box-shadow: 0 0 10px rgba(0,0,0,0.5); }");
+        styles.add(".Linkedin, .Facebook{ " +
+                "margin-top: 30px;");
+        styles.add(".v-widget.Facebook{ " +
+                "background: #3B5998;}");
+        styles.add(".v-widget.Linkedin{ " +
+                "background: #007AB9;}");
+        styles.add(".v-table-row {" +
+                "padding: 30px;}");
+        styles.add(".v-button.v-widget.buttonTable.v-button-buttonTable.v-has-width {" +
+                "font-weight: 600;}");
+        styles.add(".projectLayoutInWindow{" +
+                "margin: 0% 5% 2% 5%;" +
+                "box-sizing: padding-box;" +
+                "word-wrap: break-word;" +
+                "overflow: hidden;}");
+        styles.add(".titleProject{" +
+                "margin: 50px;" +
+                "font-weight: 600;" +
+                "font-size: 200%;}");
+        styles.add(".v-table-cell-content{" +
+                "padding: 15px 0px;}");
+        styles.add(".project, .linkGithub, .linkProject{" +
+                "font-size: 110%;" +
+                "word-break: normal;" +
+                "line-height: 1.4;" +
+                "text-decoration: none;}");
