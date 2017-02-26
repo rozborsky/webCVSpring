@@ -7,82 +7,85 @@ body{
 
 #mainLayout{
     background-color: #F9FFF1;
-    width: 90%;
-    height: 90%;
-    margin: 0 auto;
+    width: 80%;
+    min-height: 90%;
     margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 #header{
     background-color: #383838;
-    padding-left: 80px;
+    padding: 50px 0px 0px 80px;
     height: 150px;
 }
 
-#name{
-    float: left;
-    font-size: 200%;
+.surname{
+    font-weight: 600;
 }
 
 H1{
     color: #F9FFF1;
 }
 
-#navigation{
-    float: right;
-    position: relative;
+.navigationBtn{
+    background-color: #F9FFF1;
+    width: 50%;
 }
 
-#navigationButton{
-    position: absolute;
-    bottom: 0;
+.btn-group{
+    width: 100%;
+    height: 100%;
 }
 
+#center{
+    padding: 50px;
+}
 
 #content{
-    width: 70%;
-    height: 90%
-    margin: 50px;
-    border-right: 1px solid red;
-    font-size: 200%;
+    border-right: 1px solid #383838;
+    box-shadow: 6px 0 4px -4px #686868;
+}
+
+p{
+    font-size: 170%;
 }
 
 #photo{
-    width: 30%;
-    float: left;
-    padding: 50px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px #686868;
 }
 
 img{
     width: 100%;
 }
 
-#about{
-    float: right;
-    width: 60%;
+#aboutMe, #networks{
+    padding: 50px;
+    padding-top: 0;
+}
+
+.buttonFacebook, .buttonLinkedin, .cv{
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.buttonFacebook{
+    background-color: #3B5998;
+}
+
+.buttonLinkedin{
+    background-color: #007AB9;
+}
+
+.cv{
+    background-color: #ffffff;
+}
+
+h4{
+    margin-bottom: 30px;
 }
 
 
-
-
-
-
-
-        styles.add(".content { " +
-                "" +
-                "" +
-                "}");
-
-        styles.add(".rightPart { " +
-                "padding: 50px;" +
-                "font-size: 180%;}");
-        styles.add(".social {" +
-                "margin-top: 50px;}");
-        styles.add(".socialLabel {" +
-                "margin-top: 50px;}");
-     styles.add(".v-label-titleSurname { " +
-                "margin-left: 30px;" +
-                "font-weight: 600;}");
         styles.add(".about { " +
                 "margin-left: 50px;" +
                 "font-size: 180%;");
@@ -90,16 +93,7 @@ img{
                 "width: 90%;" +
                 "font-size: 150%;" +
                 "word-wrap: break-word;}");
-        styles.add(".photo { " +
-                "margin: 50px;" +
-                "margin-top: 60px;" +
-                "box-shadow: 0 0 10px rgba(0,0,0,0.5); }");
-        styles.add(".Linkedin, .Facebook{ " +
-                "margin-top: 30px;");
-        styles.add(".v-widget.Facebook{ " +
-                "background: #3B5998;}");
-        styles.add(".v-widget.Linkedin{ " +
-                "background: #007AB9;}");
+
         styles.add(".v-table-row {" +
                 "padding: 30px;}");
         styles.add(".v-button.v-widget.buttonTable.v-button-buttonTable.v-has-width {" +

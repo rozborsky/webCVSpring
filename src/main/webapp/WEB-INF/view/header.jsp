@@ -7,27 +7,34 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
 		<title>roman rozborsky</title>
+
+ 		<meta charset="utf-8">
      	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+     	integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
         <style>
 			<%@include file='styles.css'%>
         </style>
 	</head>
 	<body>
-		<div id="mainLayout">
-			<div id="header">
-				<div id="name">
-					<h1>ROMAN ROZBORSKY</h1>
-				</div>
-				<div id="navigation">
-					<button onclick="location.href='./'" type="button">home</button>
-					<button onclick="location.href='projects'" type="button">projects</button>
+		<div class="container" id="mainLayout">
+			<div class="row" id="header">
+			  	<div class="col-xl-8">
+					<div class="hero-unit" id="name">
+						<h1><big>ROMAN <span class="surname">ROZBORSKY</span></big></h1>
+					</div>
+			  	</div>
+			 	<div class="col-xl-4">
+					<div class="btn-group">
+					  <button type="button" class="btn navigationBtn" onclick="location.href='./'">HOME</button>
+					  <button type="button" class="btn navigationBtn" onclick="location.href='projects'">PROJECTS</button>
+					</div>
 				</div>
 			</div>
-			<div id="content">
-
-
+			<div class="row" id="center">
+				<div class="col-xl-9" id="content">
 
 
