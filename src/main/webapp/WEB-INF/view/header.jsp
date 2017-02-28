@@ -22,19 +22,20 @@
 	<body>
 		<div class="container" id="mainLayout">
 			<div class="row" id="header">
-			  	<div class="col-xl-8">
+			  	<div class="col-8">
 					<div class="hero-unit" id="name">
 						<h1><big>ROMAN <span class="surname">ROZBORSKY</span></big></h1>
 					</div>
 			  	</div>
-			 	<div class="col-xl-4">
+			 	<div class="col-4">
 					<div class="btn-group">
 					  <button type="button" class="btn navigationBtn" onclick="location.href='./'">HOME</button>
+					  <button type="button" class="btn navigationBtn" onclick="location.href='cv'">CV</button>
 					  <button type="button" class="btn navigationBtn" onclick="location.href='projects'">PROJECTS</button>
 					</div>
 				</div>
 			</div>
 			<div class="row" id="center">
-				<div class="col-xl-9" id="content">
+				<div class="col-9" id="content">
 
 

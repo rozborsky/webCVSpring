@@ -6,7 +6,7 @@
 		</div>
 		<div class="col-9" id="aboutMe">
 			<h2>JUNIOR JAVA DEVELOPER</h2>
-			<p>
+			<p id="text">
 				Hello, my name is Roman. I am a very hardworking and promising java developer.
 				I have been learning programming for 2 years. I devoted last year entirely to studying java.
 				I studied the basics of programming in Vinnitsa IT Academy.

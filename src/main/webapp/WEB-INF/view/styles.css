@@ -3,6 +3,9 @@ body{
     background-color: #3A3E47;
     color: #2D2D38;
     font-family: arial;
+    min-width: 1200px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
 }
 
 #mainLayout{
@@ -46,7 +49,7 @@ H1{
     box-shadow: 6px 0 4px -4px #686868;
 }
 
-p{
+#text {
     font-size: 170%;
 }
 
@@ -62,11 +65,18 @@ img{
 #aboutMe, #networks{
     padding: 50px;
     padding-top: 0;
+    text-align: justify;
+}
+
+#networks{
+    font-size: 130%;
+    padding-right: 0;
 }
 
 .buttonFacebook, .buttonLinkedin, .cv{
     margin-bottom: 40px;
     width: 100%;
+    color: #F9FFF1;
 }
 
 .buttonFacebook{
@@ -77,27 +87,36 @@ img{
     background-color: #007AB9;
 }
 
-.cv{
-    background-color: #ffffff;
-}
-
-h4{
+h5{
     margin-bottom: 30px;
+    text-align: center;
 }
 
+#social, #skype, #phone{
+    font-size: 120%;
+}
 
-        styles.add(".about { " +
-                "margin-left: 50px;" +
-                "font-size: 180%;");
-        styles.add(".position, .projectsDescription { " +
-                "width: 90%;" +
-                "font-size: 150%;" +
-                "word-wrap: break-word;}");
+#social{
+    text-align: center;
+}
 
-        styles.add(".v-table-row {" +
-                "padding: 30px;}");
-        styles.add(".v-button.v-widget.buttonTable.v-button-buttonTable.v-has-width {" +
-                "font-weight: 600;}");
+#skype, #phone{
+    margin-top: 50px;
+}
+
+.fa-skype{
+    color: #02B4EB;
+}
+
+.btn-project{
+     background-color: #F9FFF1;
+     font-weight: 600;
+}
+
+td{
+    min-width: 150px;
+}
+
         styles.add(".projectLayoutInWindow{" +
                 "margin: 0% 5% 2% 5%;" +
                 "box-sizing: padding-box;" +

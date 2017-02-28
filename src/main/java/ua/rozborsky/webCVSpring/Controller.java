@@ -14,6 +14,11 @@ public class Controller {
         return "home";
     }
 
+    @RequestMapping(value = "/cv", method = RequestMethod.GET)
+    public String cv() {
+        return "cv";
+    }
+
     @RequestMapping(value = "/projects", method = RequestMethod.GET)
     public String projects() {
         return "projects";
