@@ -33,6 +33,7 @@ H1{
 .navigationBtn{
     background-color: #F9FFF1;
     width: 50%;
+    font-weight: 600;
 }
 
 .btn-group{
@@ -89,7 +90,6 @@ img{
 
 h5{
     margin-bottom: 30px;
-    text-align: center;
 }
 
 #social, #skype, #phone{

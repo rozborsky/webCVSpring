@@ -1,6 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 	<jsp:include page="header.jsp" />
-		<h5>You can see a more detailed description of the projects, if you click on the project name</h5>
+		<h5>Some of my projects</h5>
 		<div class="table-responsive">
         	<table class="table">
                 <tr>

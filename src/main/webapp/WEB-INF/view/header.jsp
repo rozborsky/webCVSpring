@@ -15,6 +15,7 @@
      	integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+        <link rel="shortcut icon" href='<c:url value="/resources/images/favicon.png" />' type="image/x-icon">
         <style>
 			<%@include file='styles.css'%>
         </style>
