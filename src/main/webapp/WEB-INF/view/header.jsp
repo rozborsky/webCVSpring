@@ -11,11 +11,10 @@
 
  		<meta charset="utf-8">
      	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-     	integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
+        <link href="webjars/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
         <link rel="shortcut icon" href='<c:url value="/resources/images/favicon.png" />' type="image/x-icon">
+
         <style>
 			<%@include file='styles.css'%>
         </style>
@@ -38,5 +37,3 @@
 			</div>
 			<div class="row" id="center">
 				<div class="col-9" id="content">
-
-
