@@ -96,7 +96,7 @@ h5{
     font-size: 120%;
 }
 
-#social{
+#social, #page404{
     text-align: center;
 }
 
@@ -117,19 +117,6 @@ td{
     min-width: 150px;
 }
 
-        styles.add(".projectLayoutInWindow{" +
-                "margin: 0% 5% 2% 5%;" +
-                "box-sizing: padding-box;" +
-                "word-wrap: break-word;" +
-                "overflow: hidden;}");
-        styles.add(".titleProject{" +
-                "margin: 50px;" +
-                "font-weight: 600;" +
-                "font-size: 200%;}");
-        styles.add(".v-table-cell-content{" +
-                "padding: 15px 0px;}");
-        styles.add(".project, .linkGithub, .linkProject{" +
-                "font-size: 110%;" +
-                "word-break: normal;" +
-                "line-height: 1.4;" +
-                "text-decoration: none;}");
+#404{
+
+}

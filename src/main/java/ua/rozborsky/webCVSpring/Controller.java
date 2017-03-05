@@ -23,4 +23,9 @@ public class Controller {
     public String projects() {
         return "projects";
     }
+
+    @RequestMapping(value="/pageNotFound", method = RequestMethod.GET)
+    public String pageNotFound(){
+        return "pageNotFound";
+    }
 }
